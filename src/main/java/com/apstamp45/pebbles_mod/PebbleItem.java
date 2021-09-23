@@ -9,6 +9,6 @@ public class PebbleItem extends Item {
         maxStackSize = 16;
         setCreativeTab(CreativeTabs.COMBAT);
         setRegistryName(PebblesMod.MODID, "pebble");
-
+        ItemRegistry.ITEMS.add(this);
     }
 }

@@ -14,7 +14,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.1 SNAPSHOT'
+version = '0.1'
 group = 'com.apstamp45.pebble_mod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'PebbleMod' + version
 
