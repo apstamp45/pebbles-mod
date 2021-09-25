@@ -1,0 +1,22 @@
+{
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2021-09-24 21:43:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_red_flower": "2021-09-24 21:46:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2021-09-24 21:46:59 -0400",
+      "extreme_hills_with_trees": "2021-09-24 21:47:25 -0400",
+      "extreme_hills": "2021-09-24 21:38:10 -0400"
+    },
+    "done": false
+  }
+}
