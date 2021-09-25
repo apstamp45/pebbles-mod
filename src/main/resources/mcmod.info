@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "pebbles_mod",
+    "name": "Pebbles Mod",
+    "description": "This mod adds throwable pebbles.",
+    "version": "0.1",
+    "mcversion": "1.12.2",
+    "url": "https://www.github.com/apstamp45/pebbles-mod",
+    "updateUrl": "",
+    "authorList": ["apstamp45"],
+    "credits": "ME",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

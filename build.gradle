@@ -15,8 +15,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '0.1'
-group = 'com.apstamp45.pebble_mod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'PebbleMod' + version
+group = 'com.apstamp45.pebbles_mod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'PebblesMod'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -86,12 +86,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "pebble_mod",
-            "Specification-Vendor": "pebble_modsareus",
+            "Specification-Title": "pebbles_mod",
+            "Specification-Vendor": "pebbles_modsareus",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"pebble_modsareus",
+            "Implementation-Vendor" :"pebbles_modsareus",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
@@ -115,3 +115,5 @@ publishing {
         }
     }
 }
+
+sourceSets { main { output.resourcesDir = output.classesDir } }

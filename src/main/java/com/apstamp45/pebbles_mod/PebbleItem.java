@@ -6,9 +6,10 @@ import net.minecraft.item.Item;
 public class PebbleItem extends Item {
 
     public PebbleItem() {
+        setUnlocalizedName("pebble");
+        setRegistryName("pebble");
         maxStackSize = 16;
         setCreativeTab(CreativeTabs.COMBAT);
-        setRegistryName(PebblesMod.MODID, "pebble");
         ItemRegistry.ITEMS.add(this);
     }
 }
