@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: Pebbles Mod
-Implementation-Version: 0.1
-Specification-Vendor: pebble_modsareus
-Specification-Title: pebble_mod
-Implementation-Timestamp: 2021-09-23T19:19:36-0400
+Implementation-Version: 0.2
+Specification-Vendor: pebbles_modsareus
+Specification-Title: pebbles_mod
+Implementation-Timestamp: 2021-10-02T10:13:23-0400
 Specification-Version: 1
-Implementation-Vendor: pebble_modsareus
+Implementation-Vendor: pebbles_modsareus
 
